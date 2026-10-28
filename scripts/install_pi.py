@@ -39,7 +39,7 @@ def main():
     entry_path = str(runtime / 'session-start.sh')
     escaped = entry_path.replace('\\', '\\\\').replace('"', '\\"').replace('`', '\\`').replace('$', '\\$').replace('%', '%%')
     (autostart / 'curio-player.desktop').write_text(
-        '[Desktop Entry]\nType=Application\nName=Card Tap\n'
+        '[Desktop Entry]\nType=Application\nName=Card Play\n'
         'Exec="' + escaped + '"\nTerminal=false\n')
     subprocess.run(['systemctl', '--user', 'daemon-reload'], check=True)
     print('Installed. Existing cards.json preserved. Not started; finish docs/02-pi-setup.md.')
