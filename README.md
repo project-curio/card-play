@@ -1,8 +1,8 @@
 # Card Play
 
-Built by [Curio](https://github.com/project-curio).
-
 A DIY, card-controlled music player for children. Pick a card, tap it on a USB RFID reader, and play a lesson, a folder of songs, or a YouTube Music playlist through a speaker.
+
+[Watch on YouTube](https://youtube.com/shorts/rAhMRZDu4Ow?si=TApz9s0BD-B1PqbZ)
 
 The player runs on a Raspberry Pi. An adult uses the desktop to set it up; the goal is everyday listening without a phone or screen. You supply the cards, audio, and any streaming account.
 
