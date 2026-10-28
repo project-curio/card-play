@@ -14,10 +14,10 @@ This is a reproducible setup procedure to test on your hardware, not a claim tha
 
 ## 2. Get the complete source
 
-Download [Card Tap from GitHub](https://github.com/project-curio/card-tap) using **Code → Download ZIP**, extract into your home directory, and rename the extracted directory `curio-player-source`. Or, with Git installed:
+Download [Card Play from GitHub](https://github.com/project-curio/card-play) using **Code → Download ZIP**, extract into your home directory, and rename the extracted directory `curio-player-source`. Or, with Git installed:
 
 ```sh
-git clone https://github.com/project-curio/card-tap.git ~/curio-player-source
+git clone https://github.com/project-curio/card-play.git ~/curio-player-source
 cd ~/curio-player-source
 ls scripts/pi_player.py scripts/install_pi.py cards.pi.example.json
 ```
