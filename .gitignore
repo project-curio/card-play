@@ -1,0 +1,21 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# Runtime credentials and device-specific settings
+browser-profile/
+cards.pi.local.json
+
+# Builder-specific settings and private media
+*.local.json
+*.local.rules
+cards.json
+Music/
+media/

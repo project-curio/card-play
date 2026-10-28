@@ -1,0 +1,21 @@
+{
+  "audio_sink": "",
+  "speaker_address": "",
+  "cards": {
+    "00000000000002": {
+      "type": "stop",
+      "title": "Stop"
+    },
+    "000000000000aa": {
+      "type": "folder",
+      "title": "My lessons",
+      "folder": "~/Music/curio"
+    },
+    "000000000000bb": {
+      "type": "youtube",
+      "title": "Example playlist - replace IDs",
+      "playlist_id": "EXAMPLE_PLAYLIST_ID",
+      "start_video_id": "VIDEO_ID_11"
+    }
+  }
+}

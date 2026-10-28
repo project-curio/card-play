@@ -1,0 +1,15 @@
+{
+  "audio_sink": "",
+  "speaker_address": "",
+  "cards": {
+    "00000000000001": {
+      "type": "folder",
+      "title": "My lessons",
+      "folder": "~/Music/curio"
+    },
+    "00000000000002": {
+      "type": "stop",
+      "title": "Stop"
+    }
+  }
+}
