@@ -1,5 +1,5 @@
 [Unit]
-Description=Card Tap RFID music player
+Description=Card Play RFID music player
 After=pipewire-pulse.service
 Wants=pipewire-pulse.service
 StartLimitIntervalSec=60
