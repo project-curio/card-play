@@ -1,4 +1,4 @@
-# Card Tap
+# Card Play
 
 Built by [Curio](https://github.com/project-curio).
 
@@ -63,4 +63,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for checks and useful hardware reports. N
 python3 -m unittest discover -s tests -v
 ```
 
-Runtime directories and the service retain the `curio-player` name for compatibility. Card Tap is the device/project name.
+Runtime directories and the service retain the `curio-player` name for compatibility. Card Play is the device/project name.
