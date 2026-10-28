@@ -1,0 +1,2 @@
+# Template: replace values using docs/02-pi-setup.md.
+SUBSYSTEM=="input", KERNEL=="event*", ATTRS{idVendor}=="YOUR_VENDOR", ATTRS{idProduct}=="YOUR_PRODUCT", ATTRS{serial}=="YOUR_SERIAL", TAG+="uaccess"

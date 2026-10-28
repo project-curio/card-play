@@ -1,0 +1,15 @@
+[Unit]
+Description=Card Tap RFID music player
+After=pipewire-pulse.service
+Wants=pipewire-pulse.service
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 "%h/.local/share/curio-player/pi_player.py" --config "%h/.config/curio-player/cards.json"
+Restart=on-failure
+RestartSec=5
+KillMode=control-group
+TimeoutStopSec=15
+UMask=0077
